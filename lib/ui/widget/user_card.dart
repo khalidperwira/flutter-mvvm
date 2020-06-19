@@ -1,9 +1,13 @@
+// import package
 import 'package:flutter/material.dart';
 import 'package:flutter_mvvm/bloc/user_bloc.dart';
 
+// UserCard class, it will be container data
 class UserCard extends StatelessWidget {
+  // object that contain state of data, will render every change
   final MUserState user;
 
+  // constructor
   UserCard(this.user);
 
   @override
@@ -20,6 +24,7 @@ class UserCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(15),
           border: Border.all(color: Colors.blueGrey),
         ),
+        // container of data
         child: Row(
           children: <Widget>[
             Container(

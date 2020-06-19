@@ -13,8 +13,8 @@ class MUserState extends UserState {
 }
 
 class MUserInitial extends MUserState {
-  final String name, email, avatar;
-  final int id;
+  // final String name, email, avatar;
+  // final int id;
 
-  MUserInitial({this.id, this.name, this.email, this.avatar});
+  // MUserInitial({this.id, this.name, this.email, this.avatar});
 }
